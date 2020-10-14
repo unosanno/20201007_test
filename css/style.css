@@ -50,3 +50,68 @@ nav .current,
 nav a:hover{
     color: #FFBF9D;
 }
+
+.menu-all{
+    padding-bottom: 80px;
+}
+
+.manu-all article{
+    display: flex;
+}
+
+.menu-all article .menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.menu-all article .manu h3{
+    font-weight: normal;
+}
+
+.subscribe{
+    background-color:#FDF5ED;
+}
+
+.subscribe h2{
+    padding: 40px 0 30px;
+    color: #303030;
+    font-size: 26px;
+}
+
+.subscribe p{
+    padding-bottom: 40px;
+}
+
+.subscribe a{
+    display: inline-block;
+    width: 240px;
+    padding: 18px 0;
+    color: #FFFFFF;
+    background-color: #FFBF9D;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sub{
+    padding-bottom: 40px;
+    border-bottom: 1px #707070 solid;
+}
+
+footer{
+    padding: 48px 0 50px;
+}
+
+footer .copyright small{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+footer p{
+    text-align: center;
+}
+
+@media (min-width:600px){
+
+}
